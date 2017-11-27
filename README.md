@@ -1,2 +1,2 @@
-# aidandkim.github.io
-Aidan's Website
+# Aidan's Personal Website
+URL : https://aidandkim.github.io
