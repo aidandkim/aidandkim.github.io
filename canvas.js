@@ -45,6 +45,21 @@ function init(){
     ctx.fillRect(70, 160, 10, 10);
     ctx.fillRect(90, 160, 10, 20);
     ctx.fillRect(50, 170, 10, 10);
-    ctx.fillStyle = "#800000"
+    ctx.fillStyle = "#800000";
     ctx.fillRect(30, 20, 30, 10);
+    ctx.fillRect(20, 30, 10, 10);
+    ctx.fillRect(20, 70, 10, 20);
+    ctx.fillRect(30, 90, 10, 10);
+    ctx.fillRect(30, 110, 80, 10);
+    ctx.fillRect(40, 120, 10, 10);
+    ctx.fillRect(80, 120, 10, 10);
+    ctx.fillRect(40, 130, 60, 10);
+    ctx.fillRect(40, 140, 10, 10);
+    ctx.fillRect(90, 140, 10, 10);
+    ctx.fillRect(60, 160, 10, 10);
+    ctx.fillRect(40, 170, 10, 10);
+    ctx.fillRect(80, 170, 10, 10);
+    ctx.fillStyle = "#cc9900";
+    ctx.fillRect(30, 30, 20, 10);
+    
 }
