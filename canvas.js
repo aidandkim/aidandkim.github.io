@@ -80,4 +80,6 @@ function init(){
     ctx.fillRect(110, 120, 10, 20);
     ctx.fillRect(50, 160, 10, 10);
     ctx.fillRect(80, 160, 10, 10);
+    ctx.fillStyle = "#3399ff"
+    ctx.fillRect(60, 120, 10, 10);
 }
