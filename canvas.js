@@ -39,4 +39,12 @@ function init(){
     ctx.fillRect(70, 120, 10, 10);
     ctx.fillRect(90, 120, 10, 10);
     ctx.fillRect(20, 140, 10, 10);
+    ctx.fillRect(50, 140, 40, 10);
+    ctx.fillRect(110, 140, 10, 10);
+    ctx.fillRect(40, 160, 10, 10);
+    ctx.fillRect(70, 160, 10, 10);
+    ctx.fillRect(90, 160, 10, 20);
+    ctx.fillRect(50, 170, 10, 10);
+    ctx.fillStyle = "#800000"
+    ctx.fillRect(30, 20, 30, 10);
 }
