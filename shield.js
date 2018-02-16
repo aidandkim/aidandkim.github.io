@@ -7,4 +7,3 @@ function init(){
     ctx = canvas.getContext('2d');
 }
 
-    
