@@ -11,4 +11,4 @@ function init(){
 function rectangle(){
     ctx.fillStyle = "white";
     ctx.fillRect(0,0,499,537);
-}
+ 
