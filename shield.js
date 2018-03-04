@@ -6,6 +6,7 @@ function init(){
     canvas = document.getElementById("my-canvas");
     ctx = canvas.getContext('2d');
     rectangle();
+    circle();   
 }
 
 function rectangle(){
@@ -15,6 +16,6 @@ function rectangle(){
 
 function circle(){
     strokeStyle = "red";
-    context.arc(485,254,253,5,5);
+    context.arc(485,254,253,259,255);
 
 }
