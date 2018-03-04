@@ -4,7 +4,7 @@ window.onload = init;
 
 function init() {
     canvas = document.getElementById("my-canvas");
-    ctx = canvas.getContext('2d');
+    ctx = canvas.getContext("2d");
     rectangle();
     circle();
 }
@@ -21,3 +21,4 @@ function circle() {
     ctx.beganPath();
     ctx.arc(100, 75, 50, 0, 2*Math.PI);
     ctx.stroke();
+}
