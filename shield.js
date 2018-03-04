@@ -9,6 +9,12 @@ function init(){
 }
 
 function rectangle(){
-    ctx.fillStyle = "white";
+    ctx.fillStyle = "black";
     ctx.fillRect(0,0,499,537);
- 
+}
+
+function circle(){
+    strokeStyle = "red";
+    context.arc(485,254,253,5,5);
+
+}
