@@ -17,5 +17,8 @@ function rectangle() {
 function circle() {
     fiilStyle = "red";
     context.arc(485, 254, 253, 259, 255);
-
-}
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    ctx.beganPath();
+    ctx.arc(100, 75, 50, 0, 2 * Math.PI);
+    ctx.stroke();
