@@ -2,20 +2,20 @@ var canvas;
 var ctx;
 window.onload = init;
 
-function init(){
+function init() {
     canvas = document.getElementById("my-canvas");
     ctx = canvas.getContext('2d');
     rectangle();
-    circle();   
+    circle();
 }
 
-function rectangle(){
+function rectangle() {
     ctx.fillStyle = "black";
-    ctx.fillRect(0,0,499,537);
+    ctx.fillRect(0, 0, 499, 537);
 }
 
-function circle(){
-    strokeStyle = "red";
-    context.arc(485,254,253,259,255);
+function circle() {
+    fiilStyle = "red";
+    context.arc(485, 254, 253, 259, 255);
 
 }
